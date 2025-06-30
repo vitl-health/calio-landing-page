@@ -48,6 +48,46 @@ const Features = () => {
           </p>
         </div>
         
+        {/* Photo Demo Section */}
+        <div className="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-3xl p-8 lg:p-12 mb-16">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h3 className="text-3xl font-bold text-gray-900 mb-6">Log meals & snacks in seconds</h3>
+              <p className="text-xl text-gray-600 mb-6">
+                Simply point your camera at any food item and our AI instantly recognizes it, 
+                providing accurate nutritional information in seconds.
+              </p>
+              <div className="space-y-3">
+                <div className="flex items-center gap-3">
+                  <div className="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center">
+                    <span className="text-black text-sm font-bold">1</span>
+                  </div>
+                  <span className="text-gray-700">Take a photo of your food</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <div className="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center">
+                    <span className="text-black text-sm font-bold">2</span>
+                  </div>
+                  <span className="text-gray-700">AI identifies the food automatically</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <div className="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center">
+                    <span className="text-black text-sm font-bold">3</span>
+                  </div>
+                  <span className="text-gray-700">Add to your daily log instantly</span>
+                </div>
+              </div>
+            </div>
+            <div className="relative">
+              <img 
+                src="/lovable-uploads/0eda7561-6f04-4b42-84a9-a050ab0bb94a.png" 
+                alt="Calio App - Photo Food Scanning" 
+                className="w-full max-w-[300px] mx-auto drop-shadow-2xl"
+              />
+            </div>
+          </div>
+        </div>
+        
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <Card key={index} className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-2 border-0 shadow-md">
