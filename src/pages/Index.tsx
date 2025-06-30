@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-50 via-blue-50 to-purple-50">
+    <div className="min-h-screen bg-gradient-to-br from-yellow-50 via-orange-50 to-yellow-50">
       <Hero />
       <Features />
       <Benefits />

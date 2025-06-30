@@ -6,27 +6,27 @@ const Benefits = () => {
   const benefits = [
     {
       icon: Users,
-      title: "Just Getting Started",
+      title: "Eat & Live Healthier",
       description: "Perfect for beginners who want to understand their eating habits without overwhelming complexity."
     },
     {
       icon: Heart,
-      title: "Getting Back on Track",
+      title: "Boost Energy & Mood",
       description: "Ideal for those returning to healthy eating with tools that make consistency achievable."
     },
     {
       icon: Dumbbell,
-      title: "Building Momentum",
+      title: "Stay Motivated",
       description: "Designed to help you maintain progress and build lasting healthy habits over time."
     }
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
+    <section className="py-20 bg-gradient-to-br from-yellow-50 to-orange-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            🎯 <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Built for Real-Life Diet Goals</span>
+            🎯 <span className="bg-gradient-to-r from-yellow-600 to-orange-600 bg-clip-text text-transparent">What Would You Like to Accomplish?</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Whether you're just getting started or getting back on track, Calio is made to help you build momentum and stay consistent—without overwhelming features or fluff.
@@ -37,8 +37,8 @@ const Benefits = () => {
           {benefits.map((benefit, index) => (
             <Card key={index} className="text-center hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border-0 shadow-md">
               <CardContent className="p-8">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full mb-6">
-                  <benefit.icon className="w-8 h-8 text-white" />
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-yellow-400 to-orange-400 rounded-full mb-6">
+                  <benefit.icon className="w-8 h-8 text-black" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">{benefit.title}</h3>
                 <p className="text-gray-600 leading-relaxed">{benefit.description}</p>
@@ -53,23 +53,24 @@ const Benefits = () => {
               <h3 className="text-3xl font-bold text-gray-900 mb-6">Why Choose Calio?</h3>
               <div className="space-y-4">
                 {[
-                  "Save time with AI-powered food recognition",
-                  "Stay consistent with flexible logging options",
-                  "Build lasting habits without overwhelming features",
-                  "Track progress with clear, actionable insights"
+                  "✓ Science backed nutrition data you can trust",
+                  "✓ Tailored to your personal goals and preferences", 
+                  "✓ Data you can trust from certified nutritionists",
+                  "\"I finally feel on track!\" - Real user feedback"
                 ].map((point, index) => (
                   <div key={index} className="flex items-center gap-3">
-                    <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0" />
+                    <CheckCircle className="w-6 h-6 text-yellow-500 flex-shrink-0" />
                     <span className="text-gray-700">{point}</span>
                   </div>
                 ))}
               </div>
             </div>
             <div className="relative">
-              <div className="aspect-square bg-gradient-to-br from-green-100 to-blue-100 rounded-full flex items-center justify-center">
+              <div className="aspect-square bg-gradient-to-br from-yellow-100 to-orange-100 rounded-full flex items-center justify-center">
                 <div className="text-center">
-                  <div className="text-4xl mb-4">📱</div>
-                  <p className="text-gray-600 font-medium">Simple. Smart. Effective.</p>
+                  <div className="text-4xl mb-4">🍊</div>
+                  <p className="text-gray-600 font-medium">Calio by Vitl</p>
+                  <p className="text-sm opacity-75">Designed by nutritionists, built for you</p>
                 </div>
               </div>
             </div>

@@ -14,11 +14,11 @@ const Footer = () => {
             Download Calio today and take the first step toward your goals. 🚀
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button size="lg" className="bg-green-600 hover:bg-green-700 text-lg px-8 py-6 rounded-full font-semibold">
+            <Button size="lg" className="bg-yellow-500 hover:bg-yellow-600 text-black text-lg px-8 py-6 rounded-full font-semibold">
               <Smartphone className="w-5 h-5 mr-2" />
               Download for iOS
             </Button>
-            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-6 rounded-full font-semibold">
+            <Button size="lg" className="bg-orange-500 hover:bg-orange-600 text-black text-lg px-8 py-6 rounded-full font-semibold">
               <Smartphone className="w-5 h-5 mr-2" />
               Download for Android
             </Button>
@@ -28,11 +28,11 @@ const Footer = () => {
         <div className="border-t border-gray-800 pt-12">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
-              <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-green-400 to-blue-400 bg-clip-text text-transparent">
+              <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">
                 Calio by Vitl
               </h3>
               <p className="text-gray-400 mb-4">
-                Fast, flexible diet tracking powered by AI. Build healthy habits that last.
+                The smarter way to take control of your health. Sweet & effortless calorie tracking designed by nutritionists, built for you.
               </p>
               <div className="flex gap-4">
                 <Button size="sm" variant="ghost" className="p-2 hover:bg-gray-800">
