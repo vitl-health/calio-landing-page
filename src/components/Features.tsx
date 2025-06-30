@@ -37,11 +37,11 @@ const Features = () => {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-gradient-to-br from-yellow-50 via-yellow-100 to-yellow-200">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            🔍 <span className="bg-gradient-to-r from-yellow-600 to-orange-500 bg-clip-text text-transparent">Key Features</span>
+            🔍 <span className="bg-gradient-to-r from-yellow-600 to-yellow-700 bg-clip-text text-transparent">Key Features</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Everything you need to track your diet efficiently and build lasting healthy habits
@@ -49,7 +49,7 @@ const Features = () => {
         </div>
         
         {/* Photo Demo Section */}
-        <div className="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-3xl p-8 lg:p-12 mb-16">
+        <div className="bg-gradient-to-r from-yellow-100 to-yellow-200 rounded-3xl p-8 lg:p-12 mb-16">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h3 className="text-3xl font-bold text-gray-900 mb-6">Log meals & snacks in seconds</h3>
@@ -59,19 +59,19 @@ const Features = () => {
               </p>
               <div className="space-y-3">
                 <div className="flex items-center gap-3">
-                  <div className="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center">
+                  <div className="w-8 h-8 bg-yellow-500 rounded-full flex items-center justify-center">
                     <span className="text-black text-sm font-bold">1</span>
                   </div>
                   <span className="text-gray-700">Take a photo of your food</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <div className="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center">
+                  <div className="w-8 h-8 bg-yellow-500 rounded-full flex items-center justify-center">
                     <span className="text-black text-sm font-bold">2</span>
                   </div>
                   <span className="text-gray-700">AI identifies the food automatically</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <div className="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center">
+                  <div className="w-8 h-8 bg-yellow-500 rounded-full flex items-center justify-center">
                     <span className="text-black text-sm font-bold">3</span>
                   </div>
                   <span className="text-gray-700">Add to your daily log instantly</span>
@@ -79,11 +79,14 @@ const Features = () => {
               </div>
             </div>
             <div className="relative">
-              <img 
-                src="/lovable-uploads/0eda7561-6f04-4b42-84a9-a050ab0bb94a.png" 
-                alt="Calio App - Photo Food Scanning" 
-                className="w-full max-w-[300px] mx-auto drop-shadow-2xl"
-              />
+              <div className="absolute -top-4 -left-4 w-72 h-72 bg-gradient-to-r from-yellow-200 to-yellow-300 rounded-full blur-3xl opacity-50"></div>
+              <div className="relative">
+                <img 
+                  src="/lovable-uploads/0eda7561-6f04-4b42-84a9-a050ab0bb94a.png" 
+                  alt="Calio App - Photo Food Scanning" 
+                  className="w-full max-w-[300px] mx-auto rounded-3xl shadow-2xl"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -92,7 +95,7 @@ const Features = () => {
           {features.map((feature, index) => (
             <Card key={index} className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-2 border-0 shadow-md">
               <CardContent className="p-8 text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-yellow-400 to-orange-300 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
                   <feature.icon className="w-8 h-8 text-black" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">{feature.title}</h3>

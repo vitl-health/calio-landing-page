@@ -4,11 +4,20 @@ import { Smartphone, Star, Users } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-yellow-300 via-yellow-400 to-orange-300 text-black">
+    <section className="relative overflow-hidden bg-gradient-to-br from-yellow-300 via-yellow-400 to-yellow-500 text-black">
       <div className="absolute inset-0 bg-black/5"></div>
       <div className="relative container mx-auto px-4 py-20 lg:py-32">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left animate-fade-in">
+            {/* Vitl Logo */}
+            <div className="flex items-center justify-center lg:justify-start mb-8">
+              <img 
+                src="/lovable-uploads/68027c80-97ba-49b6-b32b-b85b5769711f.png" 
+                alt="Vitl Logo" 
+                className="h-16 w-auto"
+              />
+            </div>
+            
             <div className="flex items-center justify-center lg:justify-start gap-2 mb-6">
               <div className="flex items-center gap-1">
                 {[1, 2, 3, 4, 5].map((star) => (
@@ -56,13 +65,13 @@ const Hero = () => {
           
           <div className="relative lg:ml-auto animate-scale-in">
             <div className="relative max-w-sm mx-auto">
-              <div className="absolute -top-4 -left-4 w-72 h-72 bg-gradient-to-r from-yellow-200 to-orange-200 rounded-full blur-3xl opacity-40 animate-pulse"></div>
-              <div className="absolute -bottom-4 -right-4 w-64 h-64 bg-gradient-to-r from-orange-200 to-yellow-200 rounded-full blur-3xl opacity-40 animate-pulse"></div>
+              <div className="absolute -top-4 -left-4 w-72 h-72 bg-gradient-to-r from-yellow-200 to-yellow-300 rounded-full blur-3xl opacity-50 animate-pulse"></div>
+              <div className="absolute -bottom-4 -right-4 w-64 h-64 bg-gradient-to-r from-yellow-300 to-yellow-400 rounded-full blur-3xl opacity-50 animate-pulse"></div>
               <div className="relative">
                 <img 
                   src="/lovable-uploads/52005a1e-ceb7-4486-8df0-18c12adb5f7f.png" 
                   alt="Calio App - Goal Selection Screen" 
-                  className="w-full max-w-[300px] mx-auto drop-shadow-2xl"
+                  className="w-full max-w-[300px] mx-auto rounded-3xl shadow-2xl"
                 />
               </div>
             </div>
