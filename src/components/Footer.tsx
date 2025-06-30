@@ -28,11 +28,18 @@ const Footer = () => {
         <div className="border-t border-gray-800 pt-12">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
-              <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">
-                Calio by Vitl
-              </h3>
+              <div className="flex items-center gap-3 mb-4">
+                <img 
+                  src="/lovable-uploads/b1c81fe2-6349-4efd-9b4a-df861045c6eb.png" 
+                  alt="Calio Logo" 
+                  className="w-8 h-8 object-contain"
+                />
+                <h3 className="text-2xl font-bold bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">
+                  Calio by Vitl
+                </h3>
+              </div>
               <p className="text-gray-400 mb-4">
-                The smarter way to take control of your health. Sweet & effortless calorie tracking designed by nutritionists, built for you.
+                Log your meals in seconds with our AI-powered diet tracking app to reach your goals. Snap a photo, scan or type to track your diet and get smart calorie and nutritional insights, instantly!
               </p>
               <div className="flex gap-4">
                 <Button size="sm" variant="ghost" className="p-2 hover:bg-gray-800">

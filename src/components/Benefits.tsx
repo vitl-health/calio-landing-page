@@ -22,7 +22,7 @@ const Benefits = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-yellow-50 to-orange-50">
+    <section className="py-20 bg-gradient-to-br from-yellow-50 to-yellow-100">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
@@ -37,7 +37,7 @@ const Benefits = () => {
           {benefits.map((benefit, index) => (
             <Card key={index} className="text-center hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border-0 shadow-md">
               <CardContent className="p-8">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-yellow-400 to-orange-400 rounded-full mb-6">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-yellow-400 to-orange-300 rounded-full mb-6">
                   <benefit.icon className="w-8 h-8 text-black" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">{benefit.title}</h3>
@@ -59,18 +59,22 @@ const Benefits = () => {
                   "\"I finally feel on track!\" - Real user feedback"
                 ].map((point, index) => (
                   <div key={index} className="flex items-center gap-3">
-                    <CheckCircle className="w-6 h-6 text-yellow-500 flex-shrink-0" />
+                    <CheckCircle className="w-6 h-6 text-yellow-600 flex-shrink-0" />
                     <span className="text-gray-700">{point}</span>
                   </div>
                 ))}
               </div>
             </div>
             <div className="relative">
-              <div className="aspect-square bg-gradient-to-br from-yellow-100 to-orange-100 rounded-full flex items-center justify-center">
+              <div className="aspect-square bg-gradient-to-br from-yellow-100 to-yellow-200 rounded-full flex items-center justify-center">
                 <div className="text-center">
-                  <div className="text-4xl mb-4">🍊</div>
+                  <img 
+                    src="/lovable-uploads/b1c81fe2-6349-4efd-9b4a-df861045c6eb.png" 
+                    alt="Calio Logo" 
+                    className="w-16 h-16 object-contain mx-auto mb-4"
+                  />
                   <p className="text-gray-600 font-medium">Calio by Vitl</p>
-                  <p className="text-sm opacity-75">Designed by nutritionists, built for you</p>
+                  <p className="text-sm opacity-75">AI-powered diet tracking</p>
                 </div>
               </div>
             </div>

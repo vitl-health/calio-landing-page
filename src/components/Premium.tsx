@@ -5,8 +5,8 @@ import { CheckCircle, Crown, Camera, QrCode, BarChart3 } from "lucide-react";
 
 const Premium = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-yellow-400 via-orange-400 to-yellow-500 text-black relative overflow-hidden">
-      <div className="absolute inset-0 bg-black/10"></div>
+    <section className="py-20 bg-gradient-to-br from-yellow-300 via-yellow-400 to-orange-300 text-black relative overflow-hidden">
+      <div className="absolute inset-0 bg-black/5"></div>
       <div className="relative container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
@@ -18,7 +18,7 @@ const Premium = () => {
         </div>
         
         <div className="max-w-4xl mx-auto">
-          <Card className="bg-black/20 backdrop-blur-lg border-black/20 hover:bg-black/25 transition-all duration-300">
+          <Card className="bg-black/15 backdrop-blur-lg border-black/20 hover:bg-black/20 transition-all duration-300">
             <CardHeader className="text-center pb-8">
               <div className="inline-flex items-center justify-center w-16 h-16 bg-black rounded-full mx-auto mb-4">
                 <Crown className="w-8 h-8 text-yellow-400" />
@@ -46,7 +46,7 @@ const Premium = () => {
                   }
                 ].map((feature, index) => (
                   <div key={index} className="text-center">
-                    <div className="inline-flex items-center justify-center w-12 h-12 bg-black/30 rounded-full mb-4">
+                    <div className="inline-flex items-center justify-center w-12 h-12 bg-black/20 rounded-full mb-4">
                       <feature.icon className="w-6 h-6 text-black" />
                     </div>
                     <h3 className="font-semibold text-black mb-2">{feature.title}</h3>
