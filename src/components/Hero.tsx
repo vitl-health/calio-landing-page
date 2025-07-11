@@ -64,15 +64,29 @@ const Hero = () => {
           </div>
           
           <div className="relative lg:ml-auto animate-scale-in">
-            <div className="relative max-w-sm mx-auto">
-              <div className="absolute -top-4 -left-4 w-72 h-72 bg-gradient-to-r from-yellow-200 to-yellow-300 rounded-full blur-3xl opacity-50 animate-pulse"></div>
-              <div className="absolute -bottom-4 -right-4 w-64 h-64 bg-gradient-to-r from-yellow-300 to-yellow-400 rounded-full blur-3xl opacity-50 animate-pulse"></div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
+              {/* Left Phone Image */}
               <div className="relative">
-                <img 
-                  src="/lovable-uploads/fc3c293c-5398-49df-a5f3-f1b1b8b94f52.png" 
-                  alt="Calio App - So easy to use, I finally feel on track!" 
-                  className="w-full max-w-[300px] mx-auto rounded-3xl shadow-2xl"
-                />
+                <div className="absolute -top-4 -left-4 w-64 h-64 bg-gradient-to-r from-yellow-200 to-yellow-300 rounded-full blur-3xl opacity-50 animate-pulse"></div>
+                <div className="relative">
+                  <img 
+                    src="/lovable-uploads/b2d6f0e3-221e-4907-8c65-2e7eff6b76fe.png" 
+                    alt="Calio App - Designed by nutritionists, built for you" 
+                    className="w-full max-w-[280px] mx-auto rounded-3xl shadow-2xl"
+                  />
+                </div>
+              </div>
+              
+              {/* Right Phone Image */}
+              <div className="relative">
+                <div className="absolute -bottom-4 -right-4 w-64 h-64 bg-gradient-to-r from-yellow-300 to-yellow-400 rounded-full blur-3xl opacity-50 animate-pulse"></div>
+                <div className="relative">
+                  <img 
+                    src="/lovable-uploads/fc3c293c-5398-49df-a5f3-f1b1b8b94f52.png" 
+                    alt="Calio App - So easy to use, I finally feel on track!" 
+                    className="w-full max-w-[280px] mx-auto rounded-3xl shadow-2xl"
+                  />
+                </div>
               </div>
             </div>
           </div>
