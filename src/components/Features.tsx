@@ -82,8 +82,8 @@ const Features = () => {
               <div className="absolute -top-4 -left-4 w-72 h-72 bg-gradient-to-r from-yellow-200 to-yellow-300 rounded-full blur-3xl opacity-50"></div>
               <div className="relative">
                 <img 
-                  src="/lovable-uploads/0eda7561-6f04-4b42-84a9-a050ab0bb94a.png" 
-                  alt="Calio App - Photo Food Scanning" 
+                  src="/lovable-uploads/dc365d58-a3b6-4c3f-9e5b-e745e285b3d4.png" 
+                  alt="Calio App - Log meals and snacks in seconds" 
                   className="w-full max-w-[300px] mx-auto rounded-3xl shadow-2xl"
                 />
               </div>
