@@ -4,7 +4,7 @@ import { Smartphone, Star, Users } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-yellow-200 via-yellow-300 to-yellow-400 text-black">
+    <section className="relative overflow-hidden bg-gradient-to-br from-yellow-300 via-yellow-400 to-amber-400 text-black">
       <div className="absolute inset-0 bg-black/5"></div>
       <div className="relative container mx-auto px-4 py-20 lg:py-32">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
