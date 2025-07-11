@@ -4,7 +4,7 @@ import { Smartphone, Star, Users } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-yellow-300 via-yellow-400 to-yellow-500 text-black">
+    <section className="relative overflow-hidden bg-gradient-to-br from-yellow-200 via-yellow-300 to-yellow-400 text-black">
       <div className="absolute inset-0 bg-black/5"></div>
       <div className="relative container mx-auto px-4 py-20 lg:py-32">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -69,8 +69,8 @@ const Hero = () => {
               <div className="absolute -bottom-4 -right-4 w-64 h-64 bg-gradient-to-r from-yellow-300 to-yellow-400 rounded-full blur-3xl opacity-50 animate-pulse"></div>
               <div className="relative">
                 <img 
-                  src="/lovable-uploads/dc365d58-a3b6-4c3f-9e5b-e745e285b3d4.png" 
-                  alt="Calio App - Log meals and snacks in seconds" 
+                  src="/lovable-uploads/fc3c293c-5398-49df-a5f3-f1b1b8b94f52.png" 
+                  alt="Calio App - So easy to use, I finally feel on track!" 
                   className="w-full max-w-[300px] mx-auto rounded-3xl shadow-2xl"
                 />
               </div>
