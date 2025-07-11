@@ -67,15 +67,11 @@ const Benefits = () => {
             </div>
             <div className="relative">
               <div className="aspect-square bg-gradient-to-br from-yellow-100 to-yellow-200 rounded-full flex items-center justify-center">
-                <div className="text-center">
-                  <img 
-                    src="/lovable-uploads/b1c81fe2-6349-4efd-9b4a-df861045c6eb.png" 
-                    alt="Calio Logo" 
-                    className="w-16 h-16 object-contain mx-auto mb-4"
-                  />
-                  <p className="text-gray-600 font-medium">Calio by Vitl</p>
-                  <p className="text-sm opacity-75">AI-powered diet tracking</p>
-                </div>
+                <img 
+                  src="/lovable-uploads/c2764ba2-765d-48a3-b64a-70101542d441.png" 
+                  alt="Calio - Sweet & effortless calorie tracking" 
+                  className="w-2/3 h-2/3 object-contain rounded-full shadow-lg"
+                />
               </div>
             </div>
           </div>
