@@ -66,11 +66,11 @@ const Benefits = () => {
               </div>
             </div>
             <div className="relative">
-              <div className="aspect-square bg-gradient-to-br from-yellow-100 to-yellow-200 rounded-full flex items-center justify-center">
+              <div className="aspect-video bg-gradient-to-br from-yellow-100 to-yellow-200 rounded-2xl flex items-center justify-center shadow-lg">
                 <img 
                   src="/lovable-uploads/c2764ba2-765d-48a3-b64a-70101542d441.png" 
                   alt="Calio - Sweet & effortless calorie tracking" 
-                  className="w-2/3 h-2/3 object-contain rounded-full shadow-lg"
+                  className="w-2/3 h-2/3 object-contain rounded-xl shadow-lg"
                 />
               </div>
             </div>
