@@ -14,7 +14,7 @@ const Hero = () => {
               <img 
                 src="/lovable-uploads/68027c80-97ba-49b6-b32b-b85b5769711f.png" 
                 alt="Vitl Logo" 
-                className="h-16 w-auto"
+                className="h-20 w-auto rounded-lg shadow-lg"
               />
             </div>
             
@@ -69,8 +69,8 @@ const Hero = () => {
               <div className="absolute -bottom-4 -right-4 w-64 h-64 bg-gradient-to-r from-yellow-300 to-yellow-400 rounded-full blur-3xl opacity-50 animate-pulse"></div>
               <div className="relative">
                 <img 
-                  src="/lovable-uploads/52005a1e-ceb7-4486-8df0-18c12adb5f7f.png" 
-                  alt="Calio App - Goal Selection Screen" 
+                  src="/lovable-uploads/dc365d58-a3b6-4c3f-9e5b-e745e285b3d4.png" 
+                  alt="Calio App - Log meals and snacks in seconds" 
                   className="w-full max-w-[300px] mx-auto rounded-3xl shadow-2xl"
                 />
               </div>
