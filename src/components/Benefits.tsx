@@ -65,15 +65,13 @@ const Benefits = () => {
                 ))}
               </div>
             </div>
-            <div className="relative">
-              <div className="aspect-square bg-gradient-to-br from-yellow-100 to-orange-100 rounded-2xl flex items-center justify-center shadow-lg p-8">
-                <div className="w-full h-full flex items-center justify-center">
-                  <img 
-                    src="/lovable-uploads/e690cd32-97d1-40ba-a2fd-f15f5a98e90f.png" 
-                    alt="Calio Logo" 
-                    className="w-32 h-32 object-contain drop-shadow-lg"
-                  />
-                </div>
+            <div className="relative flex justify-center">
+              <div className="w-48 h-48 bg-gradient-to-br from-yellow-100 to-orange-100 rounded-3xl flex items-center justify-center shadow-xl p-4">
+                <img 
+                  src="/lovable-uploads/e690cd32-97d1-40ba-a2fd-f15f5a98e90f.png" 
+                  alt="Calio Logo" 
+                  className="w-36 h-36 object-contain rounded-2xl shadow-2xl"
+                />
               </div>
             </div>
           </div>
