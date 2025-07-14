@@ -1,5 +1,5 @@
 
-import { Camera, QrCode, Target, TrendingUp, Zap, Brain } from "lucide-react";
+import { Camera, QrCode, Target, TrendingUp, Zap, Brain, Apple } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const Features = () => {
@@ -30,7 +30,7 @@ const Features = () => {
       description: "Designed to save time so you can focus on your goals, not your tracking."
     },
     {
-      icon: QrCode,
+      icon: Apple,
       title: "Designed by our in House Nutritionists",
       description: "Leveraging deep nutrition insights from over 1.5m customers"
     }
