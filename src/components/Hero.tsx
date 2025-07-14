@@ -18,9 +18,9 @@ const Hero = () => {
               />
               <div className="w-px h-12 bg-black/20"></div>
               <img 
-                src="/lovable-uploads/f9a59a7e-7401-4f3a-b5dd-532cd83d19f5.png" 
+                src="/lovable-uploads/e690cd32-97d1-40ba-a2fd-f15f5a98e90f.png" 
                 alt="Calio Logo" 
-                className="h-16 w-auto"
+                className="h-20 w-auto rounded-lg shadow-lg"
               />
             </div>
             

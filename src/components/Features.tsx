@@ -26,7 +26,7 @@ const Features = () => {
     },
     {
       icon: Zap,
-      title: "So easy to use",
+      title: "Easy movement tracking with Wearable Integration",
       description: "Designed to save time so you can focus on your goals, not your tracking."
     },
     {
