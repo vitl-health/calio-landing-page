@@ -14,13 +14,17 @@ const Footer = () => {
             Download Calio today and take the first step toward your goals. 🚀
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button size="lg" className="bg-yellow-500 hover:bg-yellow-600 text-black text-lg px-8 py-6 rounded-full font-semibold">
-              <Smartphone className="w-5 h-5 mr-2" />
-              Download for iOS
+            <Button size="lg" className="bg-yellow-500 hover:bg-yellow-600 text-black text-lg px-8 py-6 rounded-full font-semibold" asChild>
+              <a href="https://apps.apple.com/gb/app/calio-ai-calorie-tracker/id6744249515" target="_blank" rel="noopener noreferrer">
+                <Smartphone className="w-5 h-5 mr-2" />
+                Download for iOS
+              </a>
             </Button>
-            <Button size="lg" className="bg-orange-500 hover:bg-orange-600 text-black text-lg px-8 py-6 rounded-full font-semibold">
-              <Smartphone className="w-5 h-5 mr-2" />
-              Download for Android
+            <Button size="lg" className="bg-orange-500 hover:bg-orange-600 text-black text-lg px-8 py-6 rounded-full font-semibold" asChild>
+              <a href="https://apps.apple.com/gb/app/calio-ai-calorie-tracker/id6744249515" target="_blank" rel="noopener noreferrer">
+                <Smartphone className="w-5 h-5 mr-2" />
+                Download for Android
+              </a>
             </Button>
           </div>
         </div>
