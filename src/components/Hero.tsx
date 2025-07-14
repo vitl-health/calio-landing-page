@@ -9,12 +9,18 @@ const Hero = () => {
       <div className="relative container mx-auto px-4 py-20 lg:py-32">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left animate-fade-in">
-            {/* Vitl Logo */}
-            <div className="flex items-center justify-center lg:justify-start mb-8">
+            {/* Logos */}
+            <div className="flex items-center justify-center lg:justify-start gap-6 mb-8">
               <img 
                 src="/lovable-uploads/68027c80-97ba-49b6-b32b-b85b5769711f.png" 
                 alt="Vitl Logo" 
                 className="h-20 w-auto rounded-lg shadow-lg"
+              />
+              <div className="w-px h-12 bg-black/20"></div>
+              <img 
+                src="/lovable-uploads/f9a59a7e-7401-4f3a-b5dd-532cd83d19f5.png" 
+                alt="Calio Logo" 
+                className="h-16 w-auto"
               />
             </div>
             

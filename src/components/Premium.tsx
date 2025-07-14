@@ -58,7 +58,7 @@ const Premium = () => {
               <div className="border-t border-black/20 pt-8">
                 <div className="text-center mb-8">
                   <div className="text-5xl font-bold text-black mb-2">Free</div>
-                  <div className="text-black/80 font-medium">3-day trial, then $4.99/month</div>
+                  <div className="text-black/80 font-medium">3-day trial, then £9.99/month</div>
                 </div>
                 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
