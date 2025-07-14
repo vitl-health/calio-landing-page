@@ -73,11 +73,11 @@ const Benefits = () => {
                   className="w-36 h-36 object-contain rounded-2xl shadow-2xl"
                 />
               </div>
-              <div className="w-32 h-32 bg-white rounded-2xl flex items-center justify-center shadow-xl p-2">
+              <div className="w-48 h-48 bg-gradient-to-br from-orange-100 to-yellow-100 rounded-3xl flex items-center justify-center shadow-xl p-6">
                 <img 
                   src="/lovable-uploads/e05764c0-2085-436d-81d7-001013a7dfa9.png" 
                   alt="Scan QR Code" 
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-contain rounded-2xl bg-white p-2"
                 />
               </div>
             </div>
