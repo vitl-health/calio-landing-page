@@ -31,8 +31,8 @@ const Features = () => {
     },
     {
       icon: QrCode,
-      title: "Barcode Scanner",
-      description: "Instantly log packaged foods with our advanced barcode scanning technology."
+      title: "Designed by our in House Nutritionists",
+      description: "Leveraging deep nutrition insights from over 1.5m customers"
     }
   ];
 
