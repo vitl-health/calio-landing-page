@@ -14,13 +14,13 @@ const Hero = () => {
               <img 
                 src="/lovable-uploads/68027c80-97ba-49b6-b32b-b85b5769711f.png" 
                 alt="Vitl Logo" 
-                className="h-20 w-auto rounded-lg shadow-lg"
+                className="h-28 w-auto rounded-lg shadow-lg"
               />
               <div className="w-px h-12 bg-black/20"></div>
               <img 
                 src="/lovable-uploads/e690cd32-97d1-40ba-a2fd-f15f5a98e90f.png" 
                 alt="Calio Logo" 
-                className="h-20 w-auto rounded-lg shadow-lg"
+                className="h-28 w-auto rounded-lg shadow-lg"
               />
             </div>
             
