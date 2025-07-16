@@ -30,7 +30,7 @@ const Hero = () => {
                   <Star key={star} className="w-5 h-5 fill-black text-black" />
                 ))}
               </div>
-              <span className="text-sm opacity-80 font-medium">Trusted by 10k+ users</span>
+              <span className="text-sm opacity-80 font-medium">Trusted by users worldwide</span>
             </div>
             
             <h1 className="text-5xl lg:text-7xl font-bold mb-6 leading-tight">
@@ -60,12 +60,8 @@ const Hero = () => {
             
             <div className="flex items-center justify-center lg:justify-start gap-8 mt-12 text-sm opacity-80 font-medium">
               <div className="flex items-center gap-2">
-                <Users className="w-4 h-4" />
-                <span>10,000+ Downloads</span>
-              </div>
-              <div className="flex items-center gap-2">
                 <Star className="w-4 h-4" />
-                <span>4.8 Rating</span>
+                <span>5.0 Rating</span>
               </div>
               <div className="flex items-center gap-2">
                 <span>✓ Science backed</span>
