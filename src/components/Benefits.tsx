@@ -7,17 +7,17 @@ const Benefits = () => {
     {
       icon: Users,
       title: "Eat & Live Healthier",
-      description: "Perfect for beginners who want to understand their eating habits without overwhelming complexity."
+      description: "Build better habits without the complexity."
     },
     {
       icon: Heart,
       title: "Boost Energy & Mood",
-      description: "Ideal for those returning to healthy eating with tools that make consistency achievable."
+      description: "Feel better, stay consistent."
     },
     {
       icon: Dumbbell,
       title: "Stay Motivated",
-      description: "Designed to help you maintain progress and build lasting healthy habits over time."
+      description: "Make progress that lasts."
     }
   ];
 
@@ -26,10 +26,10 @@ const Benefits = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            🎯 <span className="bg-gradient-to-r from-yellow-600 to-orange-600 bg-clip-text text-transparent">What Would You Like to Accomplish?</span>
+            🎯 <span className="bg-gradient-to-r from-yellow-600 to-orange-600 bg-clip-text text-transparent">Built for Real Results</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Whether you're just getting started or getting back on track, Calio is made to help you build momentum and stay consistent—without overwhelming features or fluff.
+            Simple tools. Lasting habits. Real progress.
           </p>
         </div>
         
@@ -53,11 +53,11 @@ const Benefits = () => {
               <h3 className="text-3xl font-bold text-gray-900 mb-6">Why Choose Calio?</h3>
               <div className="space-y-4">
                 {[
-                  "✓ Science backed nutrition data you can trust",
-                  "✓ Tailored to your personal goals and preferences", 
-                  "✓ Easy barcode scanning saves time and effort",
-                  "⭐⭐⭐⭐⭐ 5 stars on the App Store",
-                  "\"This app has been a life saver. Super easy to use and saves me lots of time with the barcode scanning feature!\" - Real user"
+                  "✓ Science-backed nutrition data",
+                  "✓ Personalized to your goals", 
+                  "✓ Barcode scanning saves time",
+                  "⭐⭐⭐⭐⭐ 5 stars on App Store",
+                  "\"Life saver! Super easy to use and saves me lots of time.\" - Real user"
                 ].map((point, index) => (
                   <div key={index} className="flex items-center gap-3">
                     <CheckCircle className="w-6 h-6 text-yellow-600 flex-shrink-0" />

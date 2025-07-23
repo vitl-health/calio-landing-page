@@ -13,7 +13,7 @@ const Premium = () => {
             🔓 <span className="text-black">Try Premium Free</span>
           </h2>
           <p className="text-xl opacity-90 max-w-3xl mx-auto font-medium">
-            Start with a 3-day free trial and unlock premium features. Cancel anytime—no strings attached.
+            3-day free trial. Cancel anytime.
           </p>
         </div>
         
@@ -31,18 +31,18 @@ const Premium = () => {
                 {[
                   {
                     icon: Camera,
-                    title: "Full Photo-Based Meal Scanning",
-                    description: "Instantly recognize and log any food from photos"
+                    title: "Photo Meal Scanning",
+                    description: "Snap any food, get instant nutrition"
                   },
                   {
                     icon: QrCode,
                     title: "Barcode Scanner",
-                    description: "Scan packaged foods for instant nutritional data"
+                    description: "Scan packages for instant data"
                   },
                   {
                     icon: BarChart3,
-                    title: "Advanced Macro Breakdowns",
-                    description: "Detailed protein, carbs, and fat tracking with insights"
+                    title: "Advanced Macro Tracking",
+                    description: "Detailed protein, carbs, and fat insights"
                   }
                 ].map((feature, index) => (
                   <div key={index} className="text-center">

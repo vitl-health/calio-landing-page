@@ -41,7 +41,7 @@ const Hero = () => {
             </h1>
             
             <p className="text-xl lg:text-2xl mb-8 opacity-90 max-w-2xl font-medium">
-              Log your meals in seconds with our AI-powered diet tracking app to reach your goals. Snap a photo, scan or type to track your diet and get smart calorie and nutritional insights, instantly!
+              Snap, scan, succeed. AI-powered tracking made simple.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
