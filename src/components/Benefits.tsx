@@ -1,6 +1,7 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { CheckCircle, Users, Heart, Dumbbell } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { CheckCircle, Users, Heart, Dumbbell, Smartphone } from "lucide-react";
 
 const Benefits = () => {
   const benefits = [
@@ -47,6 +48,30 @@ const Benefits = () => {
           ))}
         </div>
         
+        {/* Ready to Try CTA */}
+        <div className="bg-white rounded-2xl p-8 lg:p-12 shadow-lg text-center">
+          <h3 className="text-3xl font-bold text-gray-900 mb-4">Ready to try?</h3>
+          <p className="text-xl text-gray-600 mb-8">Join thousands achieving their goals with Calio</p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-8">
+            <div className="text-center">
+              <div className="w-32 h-32 bg-gradient-to-br from-yellow-100 to-orange-100 rounded-2xl flex items-center justify-center shadow-lg p-4 mb-3 mx-auto">
+                <img 
+                  src="/lovable-uploads/8b55b7c0-adb2-450f-8e3f-eced8bc9aa3f.png" 
+                  alt="Download Calio App - QR Code" 
+                  className="w-full h-full object-contain rounded-lg"
+                />
+              </div>
+              <span className="text-sm font-medium text-gray-600">Scan to download instantly</span>
+            </div>
+            <div className="text-sm text-gray-500">or</div>
+            <Button size="lg" className="bg-gradient-to-r from-yellow-400 to-orange-400 text-black hover:from-yellow-500 hover:to-orange-500 text-lg px-8 py-6 rounded-full font-semibold" asChild>
+              <a href="https://apps.apple.com/gb/app/calio-ai-calorie-tracker/id6744249515" target="_blank" rel="noopener noreferrer">
+                <Smartphone className="w-5 h-5 mr-2" />
+                Download on App Store
+              </a>
+            </Button>
+          </div>
+        </div>
         
         {/* Testimonials Section */}
         <div className="mt-16">
