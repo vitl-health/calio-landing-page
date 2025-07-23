@@ -58,6 +58,19 @@ const Hero = () => {
               </Button>
             </div>
             
+            <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-8 mt-8">
+              <div className="text-center">
+                <div className="w-24 h-24 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center shadow-lg p-3 mb-2">
+                  <img 
+                    src="/lovable-uploads/8b55b7c0-adb2-450f-8e3f-eced8bc9aa3f.png" 
+                    alt="Download Calio App - QR Code" 
+                    className="w-full h-full object-contain rounded-lg"
+                  />
+                </div>
+                <span className="text-sm font-medium opacity-80">Scan to download</span>
+              </div>
+            </div>
+            
             <div className="flex items-center justify-center lg:justify-start gap-8 mt-12 text-sm opacity-80 font-medium">
               <div className="flex items-center gap-2">
                 <Star className="w-4 h-4" />

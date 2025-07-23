@@ -47,36 +47,6 @@ const Benefits = () => {
           ))}
         </div>
         
-        <div className="bg-white rounded-2xl p-8 lg:p-12 shadow-lg">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h3 className="text-3xl font-bold text-gray-900 mb-6">Why Choose Calio?</h3>
-              <div className="space-y-4">
-                {[
-                  "✓ Science-backed nutrition data",
-                  "✓ Personalized to your goals", 
-                  "✓ Barcode scanning saves time",
-                  "⭐⭐⭐⭐⭐ 5 stars on App Store",
-                  "\"Life saver! Super easy to use and saves me lots of time.\" - Real user"
-                ].map((point, index) => (
-                  <div key={index} className="flex items-center gap-3">
-                    <CheckCircle className="w-6 h-6 text-yellow-600 flex-shrink-0" />
-                    <span className="text-gray-700">{point}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div className="relative flex justify-center gap-6 items-center">
-              <div className="w-64 h-64 bg-gradient-to-br from-yellow-100 to-orange-100 rounded-3xl flex items-center justify-center shadow-xl p-6">
-                <img 
-                  src="/lovable-uploads/8b55b7c0-adb2-450f-8e3f-eced8bc9aa3f.png" 
-                  alt="Download Calio App - QR Code" 
-                  className="w-full h-full object-contain rounded-3xl shadow-2xl"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
         
         {/* Testimonials Section */}
         <div className="mt-16">
