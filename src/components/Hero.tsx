@@ -34,26 +34,26 @@ const Hero = () => {
             </div>
             
             <h1 className="text-5xl lg:text-7xl font-bold mb-6 leading-tight">
-              <span className="block">Reach your</span>
+              <span className="block">Transform your</span>
               <span className="block text-black">
-                goals faster
+                body today
               </span>
             </h1>
             
             <p className="text-xl lg:text-2xl mb-8 opacity-90 max-w-2xl font-medium">
-              Log your meals in seconds with our AI-powered diet tracking app to reach your goals. Snap a photo, scan or type to track your diet and get smart calorie and nutritional insights, instantly!
+              Snap. Scan. Succeed. The AI diet tracker that actually works. Get instant nutrition insights and finally stick to your goals.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button size="lg" className="bg-black text-white hover:bg-gray-800 text-lg px-8 py-6 rounded-full font-semibold" asChild>
                 <a href="https://apps.apple.com/gb/app/calio-ai-calorie-tracker/id6744249515" target="_blank" rel="noopener noreferrer">
                   <Smartphone className="w-5 h-5 mr-2" />
-                  Get started
+                  Start now
                 </a>
               </Button>
               <Button size="lg" variant="outline" className="border-black text-black hover:bg-black hover:text-white text-lg px-8 py-6 rounded-full font-semibold" asChild>
                 <a href="https://apps.apple.com/gb/app/calio-ai-calorie-tracker/id6744249515" target="_blank" rel="noopener noreferrer">
-                  Let's do this, together
+                  Join thousands
                 </a>
               </Button>
             </div>
