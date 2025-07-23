@@ -77,6 +77,70 @@ const Benefits = () => {
             </div>
           </div>
         </div>
+        
+        {/* Testimonials Section */}
+        <div className="mt-16">
+          <div className="text-center mb-12">
+            <h3 className="text-3xl font-bold text-gray-900 mb-4">What Our Users Say</h3>
+            <div className="flex items-center justify-center gap-2 mb-6">
+              <div className="flex items-center gap-1">
+                {[1, 2, 3, 4, 5].map((star) => (
+                  <span key={star} className="text-2xl text-yellow-500">⭐</span>
+                ))}
+              </div>
+              <span className="text-xl font-semibold text-gray-900">5.0</span>
+              <span className="text-gray-600">• 12 Reviews</span>
+            </div>
+          </div>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              {
+                title: "Has helped me stay consistent",
+                text: "This app has been a life saver. It's super easy to use and saves me lots of time with the barcode scanning feature! I've actually managed to stay consistent with my weight loss goals!",
+                author: "Ali2023G"
+              },
+              {
+                title: "Really accurate!",
+                text: "So easy to use and the results seem super accurate. Nice to be able to scan or type in your foods!",
+                author: "JMIM1996"
+              },
+              {
+                title: "Great Food Tracker",
+                text: "UI is very intuitive. Much better than other apps I have used previously",
+                author: "LeytonE10"
+              },
+              {
+                title: "Effortless",
+                text: "Simplifies what can often be a complicated area with clever design and integration.",
+                author: "Montserrat215"
+              },
+              {
+                title: "Excellent UX",
+                text: "Very easy to use and understand app! Benefit to my health.",
+                author: "Colink1995"
+              },
+              {
+                title: "Lovely UI",
+                text: "Really easy to use",
+                author: "StuartJC"
+              }
+            ].map((review, index) => (
+              <Card key={index} className="bg-white shadow-md hover:shadow-lg transition-shadow duration-300">
+                <CardContent className="p-6">
+                  <div className="flex items-center gap-1 mb-3">
+                    {[1, 2, 3, 4, 5].map((star) => (
+                      <span key={star} className="text-yellow-500">⭐</span>
+                    ))}
+                  </div>
+                  <h4 className="font-semibold text-gray-900 mb-2">{review.title}</h4>
+                  <p className="text-gray-600 mb-4 leading-relaxed">{review.text}</p>
+                  <p className="text-sm text-gray-500 font-medium">- {review.author}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   );
