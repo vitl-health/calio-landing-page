@@ -37,7 +37,7 @@ const Features = () => {
   ];
 
   return (
-    <section className="py-20 bg-muted">
+    <section className="py-20" style={{ backgroundColor: '#FEF6DC' }}>
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
@@ -79,7 +79,6 @@ const Features = () => {
               </div>
             </div>
             <div className="relative">
-              <div className="absolute -top-4 -left-4 w-72 h-72 bg-accent rounded-full blur-3xl opacity-30"></div>
               <div className="relative">
                 <img 
                   src="/lovable-uploads/45a8d1a0-00ce-4fef-87b7-7b10b838e27f.png" 
