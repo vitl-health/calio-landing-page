@@ -37,49 +37,49 @@ const Features = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-yellow-50 via-yellow-100 to-yellow-200">
+    <section className="py-20 bg-muted">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            🔍 <span className="bg-gradient-to-r from-yellow-600 to-yellow-700 bg-clip-text text-transparent">Key Features</span>
+          <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
+            🔍 <span className="text-primary">Key Features</span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Everything you need to track your diet efficiently and build lasting healthy habits
           </p>
         </div>
         
         {/* Photo Demo Section */}
-        <div className="bg-gradient-to-r from-yellow-100 to-yellow-200 rounded-3xl p-8 lg:p-12 mb-16">
+        <div className="bg-secondary rounded-3xl p-8 lg:p-12 mb-16">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h3 className="text-3xl font-bold text-gray-900 mb-6">Log meals & snacks in seconds</h3>
-              <p className="text-xl text-gray-600 mb-6">
+              <h3 className="text-3xl font-bold text-foreground mb-6">Log meals & snacks in seconds</h3>
+              <p className="text-xl text-muted-foreground mb-6">
                 Simply point your camera at any food item and our AI instantly recognizes it, 
                 providing accurate nutritional information in seconds.
               </p>
               <div className="space-y-3">
                 <div className="flex items-center gap-3">
-                  <div className="w-8 h-8 bg-yellow-500 rounded-full flex items-center justify-center">
-                    <span className="text-black text-sm font-bold">1</span>
+                  <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
+                    <span className="text-primary-foreground text-sm font-bold">1</span>
                   </div>
-                  <span className="text-gray-700">Take a photo of your food</span>
+                  <span className="text-foreground">Take a photo of your food</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <div className="w-8 h-8 bg-yellow-500 rounded-full flex items-center justify-center">
-                    <span className="text-black text-sm font-bold">2</span>
+                  <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
+                    <span className="text-primary-foreground text-sm font-bold">2</span>
                   </div>
-                  <span className="text-gray-700">AI identifies the food automatically</span>
+                  <span className="text-foreground">AI identifies the food automatically</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <div className="w-8 h-8 bg-yellow-500 rounded-full flex items-center justify-center">
-                    <span className="text-black text-sm font-bold">3</span>
+                  <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
+                    <span className="text-primary-foreground text-sm font-bold">3</span>
                   </div>
-                  <span className="text-gray-700">Add to your daily log instantly</span>
+                  <span className="text-foreground">Add to your daily log instantly</span>
                 </div>
               </div>
             </div>
             <div className="relative">
-              <div className="absolute -top-4 -left-4 w-72 h-72 bg-gradient-to-r from-yellow-200 to-yellow-300 rounded-full blur-3xl opacity-50"></div>
+              <div className="absolute -top-4 -left-4 w-72 h-72 bg-accent rounded-full blur-3xl opacity-30"></div>
               <div className="relative">
                 <img 
                   src="/lovable-uploads/45a8d1a0-00ce-4fef-87b7-7b10b838e27f.png" 
@@ -95,11 +95,11 @@ const Features = () => {
           {features.map((feature, index) => (
             <Card key={index} className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-2 border-0 shadow-md">
               <CardContent className="p-8 text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
-                  <feature.icon className="w-8 h-8 text-black" />
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-primary rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
+                  <feature.icon className="w-8 h-8 text-primary-foreground" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">{feature.title}</h3>
-                <p className="text-gray-600 leading-relaxed">{feature.description}</p>
+                <h3 className="text-xl font-semibold text-foreground mb-4">{feature.title}</h3>
+                <p className="text-muted-foreground leading-relaxed">{feature.description}</p>
               </CardContent>
             </Card>
           ))}
