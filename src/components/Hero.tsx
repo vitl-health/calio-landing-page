@@ -4,8 +4,7 @@ import { Smartphone, Star, Users } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-yellow-300 via-yellow-400 to-amber-400 text-black">
-      <div className="absolute inset-0 bg-black/5"></div>
+    <section className="relative overflow-hidden bg-primary text-black">
       <div className="relative container mx-auto px-4 py-20 lg:py-32">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left animate-fade-in">
@@ -73,7 +72,6 @@ const Hero = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
               {/* Left Phone Image */}
               <div className="relative">
-                <div className="absolute -top-4 -left-4 w-64 h-64 bg-gradient-to-r from-yellow-200 to-yellow-300 rounded-full blur-3xl opacity-50 animate-pulse"></div>
                 <div className="relative">
                   <img 
                     src="/lovable-uploads/b2d6f0e3-221e-4907-8c65-2e7eff6b76fe.png" 
@@ -85,7 +83,6 @@ const Hero = () => {
               
               {/* Right Phone Image */}
               <div className="relative">
-                <div className="absolute -bottom-4 -right-4 w-64 h-64 bg-gradient-to-r from-yellow-300 to-yellow-400 rounded-full blur-3xl opacity-50 animate-pulse"></div>
                 <div className="relative">
                   <img 
                     src="/lovable-uploads/fc3c293c-5398-49df-a5f3-f1b1b8b94f52.png" 
