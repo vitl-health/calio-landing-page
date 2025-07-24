@@ -19,8 +19,8 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'hurme': ['Space Grotesk', 'system-ui', 'sans-serif'], // Using Space Grotesk as Hurme alternative
-				'sofia': ['Sofia Sans', 'system-ui', 'sans-serif'], // Using Sofia Sans (closest to Sofia Pro)
+				'hurme': ['Hurme Geometric Sans', 'system-ui', 'sans-serif'], // Will use system font until Hurme files are added
+				'sofia': ['Sofia Sans', 'system-ui', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
