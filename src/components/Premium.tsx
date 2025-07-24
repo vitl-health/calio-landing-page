@@ -5,8 +5,7 @@ import { CheckCircle, Crown, Camera, QrCode, BarChart3 } from "lucide-react";
 
 const Premium = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-yellow-300 via-yellow-400 to-orange-300 text-black relative overflow-hidden">
-      <div className="absolute inset-0 bg-black/5"></div>
+    <section className="py-20 bg-primary text-black relative overflow-hidden">
       <div className="relative container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">

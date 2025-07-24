@@ -13,7 +13,7 @@ const Hero = () => {
               <img 
                 src="/lovable-uploads/68027c80-97ba-49b6-b32b-b85b5769711f.png" 
                 alt="Vitl Logo" 
-                className="h-28 w-auto rounded-lg shadow-lg"
+                className="h-28 w-auto rounded-lg"
               />
               <div className="w-px h-12 bg-black/20"></div>
               <img 

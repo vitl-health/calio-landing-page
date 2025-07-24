@@ -23,7 +23,7 @@ const Benefits = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-yellow-50 to-yellow-100">
+    <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         {/* Ready to Try CTA */}
         <div className="bg-white rounded-2xl p-8 lg:p-12 shadow-lg text-center mb-16">
@@ -31,7 +31,7 @@ const Benefits = () => {
           <p className="text-xl text-gray-600 mb-8">Join those already achieving their goals with Calio</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-8">
             <div className="text-center">
-              <div className="w-40 h-40 bg-gradient-to-br from-yellow-100 to-orange-100 rounded-2xl flex items-center justify-center shadow-lg p-4 mb-3 mx-auto">
+              <div className="w-40 h-40 bg-secondary rounded-2xl flex items-center justify-center shadow-lg p-4 mb-3 mx-auto">
                 <img 
                   src="/lovable-uploads/8b55b7c0-adb2-450f-8e3f-eced8bc9aa3f.png" 
                   alt="Download Calio App - QR Code" 
@@ -41,7 +41,7 @@ const Benefits = () => {
               <span className="text-sm font-medium text-gray-600">Scan to download instantly</span>
             </div>
             <div className="text-sm text-gray-500">or</div>
-            <Button size="lg" className="bg-gradient-to-r from-yellow-400 to-orange-400 text-black hover:from-yellow-500 hover:to-orange-500 text-lg px-8 py-6 rounded-full font-semibold" asChild>
+            <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 text-lg px-8 py-6 rounded-full font-semibold" asChild>
               <a href="https://apps.apple.com/gb/app/calio-ai-calorie-tracker/id6744249515" target="_blank" rel="noopener noreferrer">
                 <Smartphone className="w-5 h-5 mr-2" />
                 Download on App Store
@@ -52,7 +52,7 @@ const Benefits = () => {
 
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            🎯 <span className="bg-gradient-to-r from-yellow-600 to-orange-600 bg-clip-text text-transparent">Built for Real Results</span>
+            🎯 <span className="text-primary">Built for Real Results</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Simple tools. Lasting habits. Real progress.
@@ -63,7 +63,7 @@ const Benefits = () => {
           {benefits.map((benefit, index) => (
             <Card key={index} className="text-center hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border-0 shadow-md">
               <CardContent className="p-8">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-yellow-400 to-orange-300 rounded-full mb-6">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-accent rounded-full mb-6">
                   <benefit.icon className="w-8 h-8 text-black" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">{benefit.title}</h3>
