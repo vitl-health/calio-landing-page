@@ -49,7 +49,7 @@ const Features = () => {
         </div>
         
         {/* Photo Demo Section */}
-        <div className="bg-secondary rounded-3xl p-8 lg:p-12 mb-16">
+        <div className="rounded-3xl p-8 lg:p-12 mb-16" style={{ backgroundColor: '#F9E5C4' }}>
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h3 className="text-3xl font-bold text-foreground mb-6">Log meals & snacks in seconds</h3>
@@ -91,17 +91,23 @@ const Features = () => {
         </div>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {features.map((feature, index) => (
-            <Card key={index} className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-2 border-0 shadow-md">
-              <CardContent className="p-8 text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-primary rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
-                  <feature.icon className="w-8 h-8 text-primary-foreground" />
-                </div>
-                <h3 className="text-xl font-semibold text-foreground mb-4">{feature.title}</h3>
-                <p className="text-muted-foreground leading-relaxed">{feature.description}</p>
-              </CardContent>
-            </Card>
-          ))}
+          {features.map((feature, index) => {
+            const iconColors = ['#FFE8B3', '#C4E2D6', '#E2D5C7', '#F5C7D3', '#C7DDEE', '#F5F1C7'];
+            return (
+              <Card key={index} className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-2 border-0 shadow-md">
+                <CardContent className="p-8 text-center">
+                  <div 
+                    className="inline-flex items-center justify-center w-16 h-16 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300"
+                    style={{ backgroundColor: iconColors[index] }}
+                  >
+                    <feature.icon className="w-8 h-8 text-gray-700" />
+                  </div>
+                  <h3 className="text-xl font-semibold text-foreground mb-4">{feature.title}</h3>
+                  <p className="text-muted-foreground leading-relaxed">{feature.description}</p>
+                </CardContent>
+              </Card>
+            );
+          })}
         </div>
       </div>
     </section>

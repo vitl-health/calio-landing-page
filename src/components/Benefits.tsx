@@ -63,7 +63,7 @@ const Benefits = () => {
           {benefits.map((benefit, index) => (
             <Card key={index} className="text-center hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border-0 shadow-md">
               <CardContent className="p-8">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-accent rounded-full mb-6">
+                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full mb-6" style={{ backgroundColor: '#FFD326' }}>
                   <benefit.icon className="w-8 h-8 text-black" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">{benefit.title}</h3>
