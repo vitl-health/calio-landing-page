@@ -24,23 +24,24 @@ All colors MUST be HSL.
     --popover-foreground: 0 0% 0%;
 
     /* Secondary brand colors */
-    /* Pink - Hex #F7CDD5 */
-    --secondary: 347 59% 90%;
+    /* Warm beige - Hex #F0C785 */
+    --secondary: 38 66% 73%;
     --secondary-foreground: 0 0% 0%;
 
-    /* Teal - Hex #51C6C6 */
-    --accent: 180 54% 55%;
+    /* Blue accent - Hex #4EBAFD for pops of color */
+    --accent: 204 97% 65%;
     --accent-foreground: 0 0% 0%;
 
     /* Supporting colors */
-    --muted: 46 100% 95%; /* Cream - #FEF6DC */
+    /* Cream - Hex #F9E5C4 */
+    --muted: 39 64% 87%;
     --muted-foreground: 0 0% 40%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 46 100% 95%;
-    --input: 46 100% 95%;
+    --border: 39 64% 87%;
+    --input: 39 64% 87%;
     --ring: 48 100% 58%;
 
     --radius: 0.5rem;
