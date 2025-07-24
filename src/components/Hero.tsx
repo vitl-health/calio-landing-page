@@ -69,28 +69,12 @@ const Hero = () => {
           </div>
           
           <div className="relative lg:ml-auto animate-scale-in">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
-              {/* Left Phone Image */}
-              <div className="relative">
-                <div className="relative">
-                  <img 
-                    src="/lovable-uploads/b2d6f0e3-221e-4907-8c65-2e7eff6b76fe.png" 
-                    alt="Calio App - Designed by nutritionists, built for you" 
-                    className="w-full max-w-[280px] mx-auto rounded-3xl shadow-2xl"
-                  />
-                </div>
-              </div>
-              
-              {/* Right Phone Image */}
-              <div className="relative">
-                <div className="relative">
-                  <img 
-                    src="/lovable-uploads/fc3c293c-5398-49df-a5f3-f1b1b8b94f52.png" 
-                    alt="Calio App - So easy to use, I finally feel on track!" 
-                    className="w-full max-w-[280px] mx-auto rounded-3xl shadow-2xl"
-                  />
-                </div>
-              </div>
+            <div className="max-w-2xl mx-auto">
+              <img 
+                src="/lovable-uploads/43187797-d914-4982-89f2-d40bbe9f16f8.png" 
+                alt="Calio App - Track calories and nutrition with AI-powered insights" 
+                className="w-full h-auto"
+              />
             </div>
           </div>
         </div>
