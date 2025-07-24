@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'hurme': ['Space Grotesk', 'system-ui', 'sans-serif'], // Using Space Grotesk as Hurme alternative
+				'sofia': ['Sofia Sans', 'system-ui', 'sans-serif'], // Using Sofia Sans (closest to Sofia Pro)
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
