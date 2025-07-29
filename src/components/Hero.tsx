@@ -71,7 +71,7 @@ const Hero = () => {
           <div className="relative lg:ml-auto animate-scale-in">
             <div className="max-w-2xl mx-auto">
               <img 
-                src="/lovable-uploads/35237cd3-f2fc-477d-b1f1-6ac82ec9dc1e.png" 
+                src="/lovable-uploads/e063cb62-b1d8-4801-afed-8ded5d9b036f.png" 
                 alt="Calio App - Track calories and nutrition with AI-powered insights" 
                 className="w-full h-auto"
               />
