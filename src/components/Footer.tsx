@@ -20,12 +20,6 @@ const Footer = () => {
                 Download for iOS
               </a>
             </Button>
-            <Button size="lg" className="text-lg px-8 py-6 rounded-full font-semibold text-black hover:opacity-90 font-sofia" style={{ backgroundColor: '#FFD326' }} asChild>
-              <a href="https://apps.apple.com/gb/app/calio-ai-calorie-tracker/id6744249515" target="_blank" rel="noopener noreferrer">
-                <Smartphone className="w-5 h-5 mr-2" />
-                Download for Android
-              </a>
-            </Button>
           </div>
         </div>
         
@@ -94,7 +88,7 @@ const Footer = () => {
             </div>
             
             <div className="text-center text-gray-400 text-sm font-sofia">
-              <p>&copy; 2024 Vitl. All rights reserved. Calio is a trademark of Vitl.</p>
+              <p>&copy; 2025 Vitl. All rights reserved. Calio is a trademark of Vitl.</p>
             </div>
           </div>
         </div>
