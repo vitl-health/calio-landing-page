@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import Benefits from "@/components/Benefits";
 import Premium from "@/components/Premium";
+import NavigationSection from "@/components/NavigationSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -12,6 +13,7 @@ const Index = () => {
       <Features />
       <Benefits />
       <Premium />
+      <NavigationSection />
       <Footer />
     </div>
   );
