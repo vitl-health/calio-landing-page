@@ -59,7 +59,7 @@ const NavigationSection = () => {
               <CardContent className="text-center">
                 <p className="text-gray-600 mb-6 text-sm">{page.description}</p>
                 <Button asChild className="w-full bg-gray-900 hover:bg-gray-800 text-white">
-                  <Link to={page.href}>Learn More</Link>
+                  <Link to={page.href} onClick={() => window.scrollTo(0, 0)}>Learn More</Link>
                 </Button>
               </CardContent>
             </Card>
