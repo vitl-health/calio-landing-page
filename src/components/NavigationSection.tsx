@@ -49,16 +49,16 @@ const NavigationSection = () => {
         
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
           {pages.map((page, index) => (
-            <Card key={index} className={`${page.color} border-0 transition-all duration-300 hover:shadow-lg`}>
+            <Card key={index} className={`${page.color} border-0 transition-all duration-300 hover:shadow-lg h-full flex flex-col`}>
               <CardHeader className="text-center pb-4">
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-white rounded-full mx-auto mb-4 shadow-sm">
                   <page.icon className="w-8 h-8 text-gray-700" />
                 </div>
                 <CardTitle className="text-xl font-bold text-gray-900">{page.title}</CardTitle>
               </CardHeader>
-              <CardContent className="text-center">
-                <p className="text-gray-600 mb-6 text-sm">{page.description}</p>
-                <Button asChild className="w-full bg-gray-900 hover:bg-gray-800 text-white">
+              <CardContent className="text-center flex-grow flex flex-col">
+                <p className="text-gray-600 mb-6 text-sm flex-grow">{page.description}</p>
+                <Button asChild className="w-full bg-gray-900 hover:bg-gray-800 text-white mt-auto">
                   <Link to={page.href} onClick={() => window.scrollTo(0, 0)}>Learn More</Link>
                 </Button>
               </CardContent>
