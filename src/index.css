@@ -6,6 +6,31 @@
 All colors MUST be HSL.
 */
 
+/* Custom Fonts */
+@font-face {
+  font-family: "hurme";
+  src: url("https://vitl.com/maintenance/fonts/9385a36415fab30aa2a50d1333efa2de.eot"); /* IE9*/
+  src: url("https://vitl.com/maintenance/fonts/9385a36415fab30aa2a50d1333efa2de.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("https://vitl.com/maintenance/fonts/9385a36415fab30aa2a50d1333efa2de.woff2") format("woff2"), /* chrome、firefox */
+  url("https://vitl.com/maintenance/fonts/9385a36415fab30aa2a50d1333efa2de.woff") format("woff"), /* chrome、firefox */
+  url("https://vitl.com/maintenance/fonts/9385a36415fab30aa2a50d1333efa2de.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("https://vitl.com/maintenance/fonts/9385a36415fab30aa2a50d1333efa2de.svg#HurmeGeometricSansNoFour-Bold") format("svg"); /* iOS 4.1- */
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "sofia";
+  src: url("https://vitl.com/maintenance/fonts/060e116a70e3096c52db16f61aaab194.eot"); /* IE9*/
+  src: url("https://vitl.com/maintenance/fonts/060e116a70e3096c52db16f61aaab194.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("https://vitl.com/maintenance/fonts/060e116a70e3096c52db16f61aaab194.woff2") format("woff2"), /* chrome、firefox */
+  url("https://vitl.com/maintenance/fonts/060e116a70e3096c52db16f61aaab194.woff") format("woff"), /* chrome、firefox */
+  url("https://vitl.com/maintenance/fonts/060e116a70e3096c52db16f61aaab194.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("https://vitl.com/maintenance/fonts/060e116a70e3096c52db16f61aaab194.svg#Sofia Pro Regular") format("svg"); /* iOS 4.1- */
+  font-weight: normal;
+  font-display: swap;
+}
+
 @layer base {
   :root {
     /* Brand Colors from Vitl Guidelines */
