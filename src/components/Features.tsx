@@ -32,7 +32,7 @@ const Features = () => {
     {
       icon: Apple,
       title: "Designed by our in House Nutritionists",
-      description: "Leveraging deep nutrition insights from over 1.5m customers"
+      description: "Leveraging deep nutrition insights from over 1.5m customers."
     }
   ];
 
@@ -54,7 +54,7 @@ const Features = () => {
             <div>
               <h3 className="text-3xl font-bold text-foreground mb-6">Log meals & snacks in seconds</h3>
               <p className="text-xl text-muted-foreground mb-6">
-                Simply point your camera at any food item and our AI instantly recognizes it, 
+                Simply point your camera at any food item and our AI instantly recognises it, 
                 providing accurate nutritional information in seconds.
               </p>
               <div className="space-y-3">
