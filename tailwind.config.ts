@@ -18,9 +18,13 @@ export default {
 			}
 		},
 		extend: {
-			fontFamily: {
+			/*fontFamily: {
 				'hurme': ['Hurme Geometric Sans', 'system-ui', 'sans-serif'], // Will use system font until Hurme files are added
 				'sofia': ['Sofia Sans', 'system-ui', 'sans-serif'],
+			},*/
+			fontFamily: {
+    			'hurme': ['HurmeGeometricSansNoFour-Bold', 'system-ui', 'sans-serif'],
+    			'sofia': ['Sofia Pro Regular', 'system-ui', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
