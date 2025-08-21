@@ -52,7 +52,7 @@ const Benefits = () => {
 
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            🎯 <span className="text-primary">Built for Real Results</span>
+            🎯 <span className="text-foreground">Built for Real Results</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Simple tools. Lasting habits. Real progress.
